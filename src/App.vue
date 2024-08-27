@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import Sidebar from './components/Sidebar.vue'
-import ChatInput from './components/ChatInput.vue'
-import ChatMessages from './components/ChatMessages.vue'
-import SystemPrompt from './components/SystemPrompt.vue'
-import ModelSelector from './components/ModelSelector.vue'
+import Sidebar from './components/Sidebar.vue' // Importing the Sidebar component
+import ChatInput from './components/ChatInput.vue' // Importing the ChatInput component
+import ChatMessages from './components/ChatMessages.vue' // Importing the ChatMessages component
+import SystemPrompt from './components/SystemPrompt.vue' // Importing the SystemPrompt component
+import ModelSelector from './components/ModelSelector.vue' // Importing the ModelSelector component
 import {
   currentModel,
   isDarkMode,
